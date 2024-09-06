@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    background-color: #55B3C5;
+    padding: 20px;
+    color: white;
+    margin: 0;
+    /*  
+    padding: 10px 40px 70px 150px;
+    va en el sentido de manecillas del reloj
+            ARRIBA DERECHA ABAJO IZQUIERDA
+
+    padding-left: 100px;    Agrega padding izq
+    padding-top: 50px;      Agrega padding arriba
+    border-width: 5px;      Agrega borde de x cantidad de grosor en pixeles
+    border-color: blue;     Agrega borde color azul
+    border-style: solid;    Agrega un estilo al borde
+    widht:300px;            Agrega una anchura a todo el h1
+    text-align: center;     Agrega un centrado a todo el h1
+    */  
+}
+
+fieldset{/*Contenedor como un recuadro a cierta info*/
+    border: 2px dashed #dddddd;
+    padding: 20px;
+    margin: 20px;
+
+    /*
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #dddddd;
+    */
+}
+
+legend{/*Título de mi recuadro*/
+    font-weight: bold;
+
+}
+
+.formElement{/*Elemento con la clase formElement, ahora son los input*/
+    width: 300px;
+    margin: 5px;
+    display: block; /*  Convierte el elemento en bloque*/
+}
+
+#information{/*Recuadro dentro del recuadro legend*/
+    display: block;
+    background-color: #55B3C5;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.especial{
+    color: blue;
+}
+
+.submissionButtons{
+    background-color: #D9534F;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    border: 1px solid #6278B0;
+}
+
+.submissionButtons:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+/*
+El "." es para las dar estilos a las clases,
+se usan .nombre (siendo el nombre = nombre de la clase)
+# es para elementos que tiene un id = #
+*/

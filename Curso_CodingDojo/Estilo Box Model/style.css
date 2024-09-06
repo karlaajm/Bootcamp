@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.div1 {
+    color: white;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    width: 480px;
+    height: 150px;
+}
+
+.div2 {
+    color: white;
+    background-color: fuchsia;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    width: 480px;
+    height: 150px;
+}
+
+.div3 {
+    color: white;
+    background-color: navy;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    width: 480px;
+    height: 150px;
+}

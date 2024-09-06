@@ -1,0 +1,49 @@
+.container {
+    width: 750px;
+    height: 760px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+}
+.Titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.Hobbies {
+    /*definir tamaño de las imágenes*/
+    width: 730px;
+    height: 25%;
+    background-color: rgba(242, 208, 69, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Supermom {
+    /*definir tamaño de las imágenes*/
+    width: 730px;
+    height: 25%;
+    background-color: rgba(102, 204, 255, 1);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.Estudios {
+    /*definir tamaño de las imágenes*/
+    width: 730px;
+    height: 25%;
+    background-color: rgba(255, 102, 102, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Parrafo {
+    background-color: rgba(153, 255, 153, 1);
+    display: flex;
+    justify-content: center;
+}

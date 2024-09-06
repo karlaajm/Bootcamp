@@ -1,0 +1,33 @@
+div, nav {
+    border: 1px solid  black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    /*
+        justify-content: space-around; 
+        pone la misma cantidad de margin entre cada elemento
+        lado derecho y también lado izquierdo)
+        flex wrap: wrap; es como un salto de línea a los elementos 
+        justify-content: space-evenly; es el mejor ya que no duplica margin
+        agrega margin equitativo entre los elemento  s
+        justify-content: space-between;
+        agrega margin entre los elementos, pero no al inicio y al final
+        gap: 15px (como el margin, pero solo a 1 elemento)
+    */
+}
+/*
+nav {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; (mueve todos los elementos a la derecha)
+    si es una columna, los mueve hacia abajo
+    align-items: flex-end (para el eje y)
+    justify-content: flex-end (para el eje x)
+    align.self: flex-end (solo se usa para 1 elemento)
+}*/

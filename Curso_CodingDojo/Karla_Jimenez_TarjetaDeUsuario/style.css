@@ -1,0 +1,63 @@
+.container {
+    width: 900px;
+    height: 760px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    box-shadow: 0.01px 1px 6px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.nav {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bloque{
+    width: 900px;
+    height: 200px;
+    background-color: rgba(0, 188, 212, 1);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: white solid 4px;
+    margin: 50px;
+    position: absolute;
+    top: 100px;
+}
+
+.contenido{
+    margin: 130px 50px 0px 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    color: rgba(51, 51, 51, 1);
+}
+
+h3{
+    color: rgba(140, 141, 147, 1);
+}
+
+p{
+    color: rgba(152, 154, 154, 1)
+}
+
+.btnEditProfile{
+    border: none;
+    background-color: rgba(245, 245, 245, 1);
+    margin-top: 30px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+}
